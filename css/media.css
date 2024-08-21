@@ -1,0 +1,172 @@
+@media (max-width: 1100px) {
+  .header h3 {
+    font-size: 20px;
+  }
+  nav select,
+  a,
+  button {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .nav-link {
+    display: none;
+  }
+  .main-teams_image {
+    width: 700;
+  }
+  .timeline-box h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .timeline-box p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .progress img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1058px) {
+  .header h3 {
+    font-size: 19px;
+  }
+  .main h1 {
+    padding: 20px 0;
+    font-size: 46px;
+    width: 550px;
+  }
+
+  .main p {
+    width: 450px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  nav select,
+  a,
+  button {
+    font-size: 13px;
+  }
+  .burger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .nav-link {
+    display: none;
+  }
+  .main img {
+    width: 920px;
+  }
+  .main-teams_image img {
+    width: 90px;
+  }
+  .main-teams p {
+    font-size: 11px;
+  }
+  .timeline-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .timeline-box {
+    width: 250px;
+  }
+  .timeline-box h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .timeline-box p {
+    font-size: 9px;
+    line-height: 19px;
+  }
+  .progress img {
+    max-width: 400px;
+  }
+  .work {
+    padding: 50px 0 0 0;
+  }
+
+  .work-box h4 {
+    margin: 18px 0 8px 0;
+    color: #35414b;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .work-box p {
+    width: 260px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .team h1 {
+    font-size: 25px;
+  }
+
+  .team-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .team p {
+    width: 200px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .trust-table {
+    height: 204px;
+  }
+
+  .trust-table h1 {
+    font-size: 21px;
+    width: 300px;
+    color: #fff;
+    line-height: 40px;
+  }
+
+  .play-store {
+    gap: 5px;
+  }
+  .play-store img {
+    width: 150px;
+  }
+  #footer {
+    background: #1d2830;
+    padding-block: 75px;
+  }
+
+  #footer-end {
+    padding-block: 20px;
+    background: #1d2830;
+  }
+
+  ul {
+    gap: 10px;
+  }
+
+  .footer-icons div {
+    width: 26px;
+    height: 26px;
+    font-size: 10px;
+  }
+}
