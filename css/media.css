@@ -129,9 +129,12 @@
   }
 
   .team p {
-    width: 200px;
+    width: 400px;
     font-size: 14px;
     line-height: 25px;
+  }
+  .team-box p {
+    width: 150px;
   }
   .trust-table {
     height: 204px;
@@ -168,5 +171,159 @@
     width: 26px;
     height: 26px;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 917px) {
+  .header h3 {
+    font-size: 18px;
+  }
+  .save {
+    padding: 6px 26px;
+    font-size: 14px;
+  }
+
+  .main-acc button {
+    padding: 6px 20px;
+    border-radius: 30px;
+    background: #81c43b;
+    z-index: 2;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .main h1 {
+    padding: 20px 0;
+    font-size: 36px;
+    width: 500px;
+  }
+
+  .main p {
+    width: 450px;
+    line-height: 24px;
+    font-size: 12px;
+  }
+  .main-submit input {
+    width: 310px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .main-submit button {
+    width: 100px;
+    height: 44px;
+    background: #794cff;
+  }
+
+  nav select,
+  a,
+  button {
+    font-size: 13px;
+  }
+  .burger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .nav-link {
+    display: none;
+  }
+  .main img {
+    width: 800px;
+  }
+  .main-teams_image {
+    width: 750px;
+  }
+  .main-teams_image img {
+    width: 80px;
+  }
+  .main-teams p {
+    font-size: 10px;
+  }
+  .timeline-box {
+    width: 150px;
+  }
+  .timeline-box h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .timeline-box p {
+    font-size: 9px;
+    line-height: 19px;
+  }
+  .progress img {
+    max-width: 250px;
+  }
+
+  .work-box h4 {
+    margin: 18px 0 8px 0;
+    color: #35414b;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .work-box p {
+    width: 240px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .team h1 {
+    font-size: 25px;
+  }
+
+  .team-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .team p {
+    width: 400px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .team-box p {
+    width: 150px;
+  }
+  .trust-table {
+    height: 204px;
+  }
+
+  .trust-table h1 {
+    font-size: 21px;
+    width: 300px;
+    color: #fff;
+    line-height: 40px;
+  }
+
+  .play-store {
+    gap: 5px;
+  }
+  .play-store img {
+    width: 130px;
+  }
+  #footer {
+    background: #1d2830;
+    padding-block: 75px;
+  }
+
+  #footer-end {
+    padding-block: 20px;
+    background: #1d2830;
+  }
+
+  ul {
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .footer-icons div {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+  .footer img {
+    width: 120px;
   }
 }
